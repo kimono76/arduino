@@ -1,0 +1,2 @@
+arduino-cli compile -b arduino:avr:uno ../arduino-cli/arduino-cli-commands.md
+arduino-cli compile -b arduino:avr:uno ~/source/repos/arduino/Blink ../arduino-cli/arduino-cli-commands.md
