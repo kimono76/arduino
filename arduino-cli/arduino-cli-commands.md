@@ -12,7 +12,7 @@ arduino-cli compile --upload
 ## COMMAND LINE COMPLETION
 
 ```
-arduino-cli completion > _arduino-cli
+arduino-cli completion zsh > _arduino-cli
 ```
 Add it to the zsh config file
 1. mkdir ~/completion_zsh
