@@ -9,7 +9,6 @@ arduino-cli compile
 arduino-cli upload -v
 arduino-cli compile --upload
 
-## CO,,A
 ## COMMAND LINE COMPLETION
 
 ```
