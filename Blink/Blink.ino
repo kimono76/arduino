@@ -7,10 +7,19 @@ void setup() {
 
 void loop() {
     digitalWrite(LED_BUILTIN, HIGH);
-    Serial.println("HIGH");
-    delay(500);
+    Serial.println("HIGH_1");
+    delay(1500);
     
     digitalWrite(LED_BUILTIN, LOW);
-    Serial.println("LOW");
-    delay(500);
+    delay(1000);
+    Serial.println("-");
+    delay(1000);
+
+    digitalWrite(LED_BUILTIN, HIGH);
+    Serial.println("HIGH_2");
+    delay(1500);
+
+    digitalWrite(LED_BUILTIN, LOW);
+    Serial.println("LOW______");
+    delay(5000);
 }
