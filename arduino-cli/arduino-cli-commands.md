@@ -28,6 +28,8 @@ fpath=($HOME/completion_zsh $fpath)
 ```sh
 1. mv _arduino-cli ~/completion_zsh/ 
 
+```
+
 ## Access the serial monitor   
 
 ```
@@ -41,3 +43,11 @@ touch log_30seconds.txt
 cat /dev/ttyACM0 > ./log_30seconds.txt
 
 ```
+## Print rto serial monitor  
+
+```sh
+echo "insert text" > /dev/ttyACM0 
+
+
+```
+
